@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "ts-node scraper.ts"
+    "start": "ts-node ./bot/mastodonBot.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,9 @@
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "lowdb": "^7.0.1",
-    "masto": "^6.8.0",
+    "masto": "^6.8.0"
+  },
+  "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
